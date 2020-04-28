@@ -1,0 +1,40 @@
+{
+  "name": "wave-test",
+  "version": "0.0.6",
+  "description": "Wave Tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "go": "echo \"Go!\""
+  },
+  "bin": {
+    "wave": "bin/index.js",
+    "wave-list": "bin/lc-list",
+    "wave-test": "bin/lc-create"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fujusong/wave-test.git"
+  },
+  "keywords": [
+    "wave",
+    "git",
+    "tool",
+    "javescript"
+  ],
+  "author": "wavesnow",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fujusong/wave-test/issues"
+  },
+  "homepage": "https://github.com/fujusong/wave-test#readme",
+  "dependencies": {
+    "@types/jest": "^25.2.1",
+    "@types/node": "^13.13.4",
+    "async": "^3.2.0",
+    "chalk": "^4.0.0",
+    "commander": "^5.1.0",
+    "jest": "^25.4.0",
+    "node": "^14.0.0"
+  }
+}
