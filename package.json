@@ -1,16 +1,14 @@
 {
   "name": "wave-test",
-  "version": "0.0.6",
+  "version": "0.0.1",
   "description": "Wave Tools",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "go": "echo \"Go!\""
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
     "wave": "bin/index.js",
-    "wave-list": "bin/lc-list",
-    "wave-test": "bin/lc-create"
+    "wave-list": "bin/lc-list.js"
   },
   "repository": {
     "type": "git",
